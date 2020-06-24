@@ -21,3 +21,5 @@ function Queue() {
         return items.length
     }
 }
+
+module.exports = Queue

@@ -1,0 +1,23 @@
+{
+  "name": "data-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "图/demo03.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwhrcx0612/DataStructure.git"
+  },
+  "author": "zhangwh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zwhrcx0612/DataStructure/issues"
+  },
+  "homepage": "https://github.com/zwhrcx0612/DataStructure#readme"
+}

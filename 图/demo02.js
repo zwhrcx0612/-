@@ -1,3 +1,5 @@
+// 腾讯课堂上的
+// https://ke.qq.com/webcourse/index.html#cid=330075&term_id=100391772&taid=2557004485036379&vid=5285890788164810383
 function Queue() {
     var items = []
     //入队
