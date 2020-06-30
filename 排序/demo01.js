@@ -1,4 +1,6 @@
+// 冒泡排序
 function bubbleSort(arr) {
+    // 总共执行arr.length-1次
     for(let i = arr.length; i >= 2; i--) {
         // j < i - 1是因为每次排序最后一个数字都会排好(最大或者最小)，下次就不再需要排序了
         for(let j = 0; j < i-1; j++) {
