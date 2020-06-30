@@ -15,3 +15,8 @@ function qSort(list) {
     }
     return qSort(lesser).concat(pivot, qSort(greater)); 
 }
+
+// let arr = [3,1,2,6,4]
+let arr = [9,3,93,9,65,94,50,90,12,65]
+qSort(arr)
+console.log(qSort(arr))
