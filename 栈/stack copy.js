@@ -1,13 +1,15 @@
-var removeDuplicates = function(S) {
-    let stack = []
-     for(c of S) {
-         let prev = stack.pop()
-         if(prev !== c) {
-             stack.push(prev)
-             stack.push(c)
-         }
-     }
-     return stack.join('')
- };
+function SuperType() {
+    this.color = ['red']
+}
 
-removeDuplicates('abbaca')
+function SubType() {
+    SuperType.call(this)  //
+}
+
+SubType.prototype = new SuperType()
+
+let s1 = new SubType()
+s1.color.push('black')
+let s2 = new SubType()
+console.log(s1.color)
+console.log(s2.color)
